@@ -2,7 +2,7 @@ pipeline{
     agent any
     tools {
         // Define a custom Maven tool named 'local_maven' pointing to the installed Maven in Jenkins
-        maven 'local_maven'
+        maven 'Maven'
     }
     stages {
         stage ('Build') {
